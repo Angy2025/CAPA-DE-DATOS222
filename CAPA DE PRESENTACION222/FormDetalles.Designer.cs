@@ -54,8 +54,7 @@
             textBoxResumen.ReadOnly = true;
             textBoxResumen.Size = new Size(211, 184);
             textBoxResumen.TabIndex = 5;
-            textBoxResumen.TextChanged += textBoxResumen_TextChanged;
-            // 
+            //
             // btnClose
             // 
             btnClose.BackColor = SystemColors.ActiveCaptionText;
@@ -87,14 +86,7 @@
         #endregion
 
         private Label lblDetalles;
-        private Label lblName;
-        private Label lblPlace;
-        private Label lblDate;
-        private Label lblTipo;
         private TextBox textBoxResumen;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
         private Button btnClose;
     }
 }
